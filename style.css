@@ -3,13 +3,26 @@ body{
   font-family: 'Playfair Display', serif;
 }
 
-.navbar-header>#name{
+.navbar{
+  background-color: white;
+  color: black;
+}
+
+.navbar-toggle{
+  background-color: black;
+}
+
+.icon-bar{
+  background-color: white;
+}
+
+.navbar-header>#name, a{
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 #home{
-  background-color: #34495e;
+  /*background-color: #34495e;*/
   height: 100vh;
   margin-top: 0;
   display: flex;

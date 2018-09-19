@@ -1,29 +1,17 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
-
-/* Otherwise just put the config content (json): */
-
+/* PARTICLE JS */
 particlesJS('home',
   
   {
     "particles": {
       "number": {
-        "value": 200,
+        "value": 100,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#000000"
       },
       "shape": {
         "type": "polygon",
@@ -32,7 +20,7 @@ particlesJS('home',
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 10
         },
         "image": {
           "src": "img/github.svg",
@@ -63,7 +51,7 @@ particlesJS('home',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#000000",
         "opacity": 0.4,
         "width": 1
       },
