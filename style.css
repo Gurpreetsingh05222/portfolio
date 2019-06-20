@@ -51,6 +51,24 @@ span.navbar-toggler-icon{
   z-index: 1;
 }
 
+/*ABOUT*/
+
+#about{
+  padding: 100px 0;
+}
+
+.aboutImage{
+  max-width: 100%;
+}
+
+.aboutHeader{
+  margin-bottom: 5%;
+}
+
+
+
+
+
 
 @media(max-width: 768px){
   #showcase h1{
