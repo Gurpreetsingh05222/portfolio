@@ -32,7 +32,7 @@ span.navbar-toggler-icon{
   background-image: url("images/portfolio.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100vh;
+  height: 80vh;
 }
 
 #header{
@@ -44,8 +44,6 @@ span.navbar-toggler-icon{
 .overlay{
   background: rgba(0,0,0,0.5);
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -58,7 +56,8 @@ span.navbar-toggler-icon{
 }
 
 .aboutImage{
-  max-width: 100%;
+  width: 80%;
+  padding-left: 20px;
 }
 
 .aboutHeader{
@@ -69,14 +68,21 @@ span.navbar-toggler-icon{
 
 
 
-
 @media(max-width: 768px){
+  #showcase{
+    height: 50vh;
+  }
+
   #showcase h1{
-    font-size: 4rem;
+    font-size: 2rem;
+  }
+
+  #header{
+    padding-top: 15%;
   }
 
   .overlay{
-    height: 50%;
+    height: 50vh;
   }
 
 }
